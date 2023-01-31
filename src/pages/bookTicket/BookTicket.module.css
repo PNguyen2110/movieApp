@@ -1,0 +1,13 @@
+.bookTicket-screen{
+    border-bottom: 42px solid #f48fb1;
+    border-left: 45px solid transparent;
+    border-right: 45px solid transparent;
+    width:75%;
+    filter: drop-shadow(4px 30px 20px rgba(255, 255, 255, 0.5));
+    font-size: 25px;
+    color: #fff;
+    margin-bottom: 14px;
+    box-shadow: -1px 11px 17px -7px rgba(199,145,145,0.75);
+-webkit-box-shadow: -1px 11px 17px -7px rgba(199,145,145,0.75);
+-moz-box-shadow: -1px 11px 17px -7px rgba(199,145,145,0.75);
+  }

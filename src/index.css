@@ -1,0 +1,58 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Jost', sans-serif;
+
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+.header .active {
+  border-bottom: 1.5px solid #f06292;
+  color: #f06292;
+}
+.header a:hover {
+    color: #f06292;
+}
+.container{
+  width: 90%;
+  margin:auto
+}
+
+.slick-dots-bottom{
+  margin: 0 !important;
+  padding: 0 !important;
+}
+
+ 
+.detailMovie {
+  font-family: sans-serif;
+  text-align: center;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+ 
+}
+.detailMovie .box1 {
+  margin: 120px auto 0 auto;
+  background: rgba(16,18,27,0.4);
+  border: 2px solid #e91e63;
+  border-radius: 10px;
+  backdrop-filter: blur(2px);
+  color: aliceblue;
+}
+.detailMovie .box1 p{
+  padding: 5px 10px;
+}
+.detailMovie .box2{
+  background: rgba(16,18,27,0.4);
+  border: 2px solid #e91e63;
+  border-radius: 10px;
+}

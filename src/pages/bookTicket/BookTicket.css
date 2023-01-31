@@ -1,0 +1,93 @@
+.ghe {
+  width: 30px;
+  height: 30px;
+  border-radius: 5px;
+  cursor: pointer;
+  margin: 5.5px;
+  background-color: rgb(123, 122, 122);
+  color: #fff;
+}
+
+.gheVip {
+  background-color: rgb(230, 99, 42);
+  width: 30px;
+  height: 30px;
+  border-radius: 5px;
+  cursor: pointer;
+  color: #fff;
+}
+
+.gheDaDat {
+  background-color: rgb(209, 232, 76);
+  cursor: no-drop;
+  width: 30px;
+  height: 30px;
+  border-radius: 5px;
+}
+
+.gheDangDat {
+  background-color: rgb(18, 176, 18) !important;
+  width: 30px;
+  height: 30px;
+  border-radius: 5px;
+}
+
+.gheButton {
+  width: 30px;
+  height: 30px;
+  border-radius: 5px;
+  cursor: pointer;
+  background-color: rgb(123, 122, 122);
+  color: #fff;
+}
+.gheKhachDangDat{
+  width: 30px;
+  height: 30px;
+  border-radius: 5px;
+  cursor: pointer;
+  background-color: rgba(178, 90, 171, 0.963) !important;
+  color: #fff;
+  cursor: no-drop;
+}
+#table-wrapper {
+  position: relative;
+}
+
+#table-scroll {
+  height: 100px;
+  overflow: auto;
+  margin-top: 33px;
+}
+
+#table-wrapper table {
+  width: 100%;
+}
+
+#table-wrapper table thead .textfix {
+  position: absolute;
+  top: -25px;
+  z-index: 2;
+  height: 20px;
+  width: 35%;
+}
+
+.gheDaDuocDat {
+  background-color: rgb(246, 246, 246);
+  box-shadow: 0px 0px 21px -5px rgba(163, 75, 75, 0.59);
+  -webkit-box-shadow: 0px 0px 21px -5px rgba(163, 75, 75, 0.59);
+  -moz-box-shadow: 0px 0px 21px -5px rgba(163, 75, 75, 0.59);
+  color: orange;
+  border: 1px solid orange;
+  width: 30px;
+  height: 30px;
+  border-radius: 5px;
+}
+.totalTicket {
+  margin-top: 35px;
+  background-color: rgba(16, 18, 27, 0.4);
+  border: 2px solid #e91e63;
+  border-radius: 10px;
+  backdrop-filter: blur(2px);
+  color: aliceblue;
+  padding: 35px 15px;
+}
